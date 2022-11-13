@@ -1,4 +1,914 @@
 # World-of-Warcraft-WOTLK
 ElvUI Profil
 
-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
+{
+    ["actionbar"] = {
+        ["bar1"] = {
+            ["backdrop"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar10"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar2"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar3"] = {
+            ["backdrop"] = true,
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 12,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar4"] = {
+            ["buttonsPerRow"] = 12,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar5"] = {
+            ["backdrop"] = true,
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 12,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar6"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar7"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar8"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["bar9"] = {
+            ["backdrop"] = true,
+            ["enabled"] = true,
+            ["point"] = "TOPLEFT",
+        },
+        ["barPet"] = {
+            ["backdrop"] = false,
+            ["backdropSpacing"] = 6,
+            ["buttonSize"] = 22,
+            ["buttonSpacing"] = 4,
+            ["buttonsPerRow"] = 10,
+        },
+        ["font"] = "Bui Visitor1",
+        ["fontOutline"] = "MONOCROMEOUTLINE",
+        ["microbar"] = {
+            ["enabled"] = true,
+        },
+        ["stanceBar"] = {
+            ["buttonSize"] = 24,
+        },
+        ["transparent"] = true,
+    },
+    ["auras"] = {
+        ["buffs"] = {
+            ["horizontalSpacing"] = 3,
+            ["size"] = 30,
+        },
+        ["debuffs"] = {
+            ["size"] = 30,
+        },
+    },
+    ["bags"] = {
+        ["bagSize"] = 32,
+        ["bagWidth"] = 412,
+        ["bankSize"] = 32,
+        ["bankWidth"] = 412,
+        ["countFont"] = "Bui Prototype",
+        ["countFontOutline"] = "OUTLINE",
+        ["itemLevelCustomColor"] = {
+            ["b"] = 0.33333333333333,
+            ["r"] = 0.25490196078431,
+        },
+        ["itemLevelFont"] = "Expressway",
+        ["itemLevelFontOutline"] = "OUTLINE",
+        ["junkIcon"] = true,
+        ["moneyFormat"] = "BLIZZARD",
+        ["scrapIcon"] = true,
+        ["split"] = {
+            ["player"] = true,
+        },
+        ["vendorGrays"] = {
+            ["enable"] = true,
+        },
+    },
+    ["benikui"] = {
+        ["colors"] = {
+            ["abAlpha"] = 0.7,
+            ["styleAlpha"] = 0.7,
+        },
+        ["datatexts"] = {
+            ["chat"] = {
+                ["styled"] = true,
+                ["transparent"] = true,
+            },
+        },
+        ["unitframes"] = {
+            ["player"] = {
+                ["portraitHeight"] = 47,
+                ["portraitStyle"] = true,
+            },
+            ["target"] = {
+                ["getPlayerPortraitSize"] = false,
+                ["portraitHeight"] = 47,
+                ["portraitStyle"] = true,
+            },
+            ["textures"] = {
+                ["castbar"] = "Blizzard",
+                ["health"] = "Blizzard",
+                ["power"] = "Blizzard",
+            },
+        },
+    },
+    ["chat"] = {
+        ["font"] = "Expressway",
+        ["panelColor"] = {
+            ["a"] = 0.75,
+            ["b"] = 0.054,
+            ["g"] = 0.054,
+            ["r"] = 0.054,
+        },
+        ["panelHeight"] = 150,
+        ["tabFont"] = "Expressway",
+        ["tabFontOutline"] = "OUTLINE",
+        ["tabFontSize"] = 11,
+        ["timeStampFormat"] = "%H:%M ",
+    },
+    ["convertPages"] = true,
+    ["databars"] = {
+        ["experience"] = {
+            ["font"] = "Expressway",
+            ["fontSize"] = 10,
+            ["height"] = 5,
+            ["orientation"] = "HORIZONTAL",
+            ["textFormat"] = "CURPERC",
+            ["textYoffset"] = 10,
+            ["width"] = 416,
+        },
+        ["reputation"] = {
+            ["enable"] = true,
+            ["fontSize"] = 9,
+            ["height"] = 150,
+            ["orientation"] = "VERTICAL",
+            ["width"] = 8,
+        },
+        ["statusbar"] = "BuiFlat",
+    },
+    ["datatexts"] = {
+        ["font"] = "Expressway",
+        ["fontOutline"] = "OUTLINE",
+        ["fontSize"] = 11,
+        ["panels"] = {
+            ["Addons"] = {
+                [1] = "MRT",
+                [2] = "PallyPower",
+                [3] = "WeakAuras",
+                ["enable"] = true,
+            },
+            ["BuiLeftChatDTPanel"] = {
+                [1] = "Difficulty",
+                [2] = "Durability",
+            },
+            ["BuiMiddleDTPanel"] = {
+                [1] = "Avoidance",
+                [2] = "Time",
+                [3] = "Armor",
+                ["enable"] = true,
+            },
+            ["BuiRightChatDTPanel"] = {
+                [1] = "System",
+                [2] = "Bags",
+                [3] = "Gold",
+            },
+            ["LeftChatDataPanel"] = {
+                [1] = "",
+                [2] = "",
+                [3] = "",
+                ["enable"] = false,
+            },
+            ["RightChatDataPanel"] = {
+                ["enable"] = false,
+            },
+        },
+    },
+    ["general"] = {
+        ["backdropcolor"] = {
+            ["b"] = 0.025,
+            ["g"] = 0.025,
+            ["r"] = 0.025,
+        },
+        ["backdropfadecolor"] = {
+            ["a"] = 0.75,
+            ["b"] = 0.054,
+            ["g"] = 0.054,
+            ["r"] = 0.054,
+        },
+        ["bottomPanel"] = false,
+        ["decimalLength"] = 2,
+        ["font"] = "Expressway",
+        ["fontSize"] = 11,
+        ["minimap"] = {
+            ["locationText"] = "HIDE",
+            ["size"] = 150,
+        },
+        ["objectiveFrameHeight"] = 750,
+        ["valuecolor"] = {
+            ["b"] = 0,
+            ["g"] = 0.5,
+            ["r"] = 1,
+        },
+    },
+    ["movers"] = {
+        ["AlertFrameMover"] = "BOTTOM,UIParent,BOTTOM,-22,463",
+        ["ArenaHeaderMover"] = "BOTTOM,UIParent,BOTTOM,182,25",
+        ["BNETMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-174,-222",
+        ["BelowMinimapContainerMover"] = "TOP,ElvUIParent,TOP,0,-192",
+        ["BossHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-169,-275",
+        ["BuffsMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-174,-34",
+        ["BuiDashboardMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-8",
+        ["ClassBarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,242",
+        ["DTPanelAddonsMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,471,0",
+        ["DTPanelBuiMiddleDTPanelMover"] = "BOTTOM,UIParent,BOTTOM,183,4",
+        ["DebuffsMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-174,-174",
+        ["ElvAB_1"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,471,21",
+        ["ElvAB_10"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,346",
+        ["ElvAB_2"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,470,56",
+        ["ElvAB_3"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,469,92",
+        ["ElvAB_4"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,469,128",
+        ["ElvAB_5"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,535",
+        ["ElvAB_6"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,497",
+        ["ElvAB_7"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,458",
+        ["ElvAB_8"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,420",
+        ["ElvAB_9"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,382",
+        ["ElvUF_AssistMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-551,283",
+        ["ElvUF_BodyGuardMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,444",
+        ["ElvUF_FocusCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-518,223",
+        ["ElvUF_FocusMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,359",
+        ["ElvUF_FocusTargetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,424",
+        ["ElvUF_PartyMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-244",
+        ["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,232",
+        ["ElvUF_PetMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,275",
+        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-231,147",
+        ["ElvUF_PlayerMover"] = "TOPLEFT,UIParent,TOPLEFT,169,-499",
+        ["ElvUF_Raid1Mover"] = "BOTTOM,UIParent,BOTTOM,186,25",
+        ["ElvUF_Raid2Mover"] = "BOTTOM,UIParent,BOTTOM,185,25",
+        ["ElvUF_Raid3Mover"] = "BOTTOM,UIParent,BOTTOM,187,25",
+        ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,636",
+        ["ElvUF_TankMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-551,23",
+        ["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,231,147",
+        ["ElvUF_TargetMover"] = "TOPLEFT,UIParent,TOPLEFT,499,-499",
+        ["ElvUF_TargetTargetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,168,562",
+        ["ElvUF_TargetTargetTargetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,499,562",
+        ["ExperienceBarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,177",
+        ["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,158,-38",
+        ["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,2,22",
+        ["LocationMover"] = "TOP,ElvUIParent,TOP,0,-7",
+        ["LootFrameMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-422,449",
+        ["MicrobarMover"] = "TOP,ElvUIParent,TOP,-1,-22",
+        ["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-6",
+        ["ObjectiveFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-181,-61",
+        ["PetAB"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,198",
+        ["PlayerNameplate"] = "BOTTOM,ElvUIParent,BOTTOM,0,359",
+        ["PlayerPortraitMover"] = "BOTTOM,ElvUIParent,BOTTOM,-365,163",
+        ["PlayerPowerBarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,213",
+        ["ProfessionsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-5,-184",
+        ["ReputationBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-415,22",
+        ["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,22",
+        ["ShiftAB"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,272",
+        ["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-5,-303",
+        ["TargetPortraitMover"] = "BOTTOM,ElvUIParent,BOTTOM,365,163",
+        ["TargetPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,231,215",
+        ["ThreatBarMover"] = "TOPLEFT,UIParent,TOPLEFT,499,-563",
+        ["TopCenterContainerMover"] = "TOP,UIParent,TOP,0,-52",
+        ["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,425,42",
+        ["TotemTrackerMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,423,21",
+        ["VehicleLeaveButton"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-336,245",
+        ["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,155,-81",
+        ["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-122,-292",
+        ["tokenHolderMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-123",
+    },
+    ["nameplates"] = {
+        ["font"] = "Bui Visitor1",
+        ["fontOutline"] = "MONOCHROMEOUTLINE",
+        ["fontSize"] = 10,
+        ["statusbar"] = "BuiFlat",
+        ["units"] = {
+            ["ENEMY_NPC"] = {
+                ["buffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["castbar"] = {
+                    ["font"] = "Expressway",
+                },
+                ["debuffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["health"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+                ["level"] = {
+                    ["font"] = "Expressway",
+                },
+                ["name"] = {
+                    ["font"] = "Expressway",
+                },
+                ["power"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+            },
+            ["ENEMY_PLAYER"] = {
+                ["buffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["castbar"] = {
+                    ["font"] = "Expressway",
+                },
+                ["debuffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["health"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+                ["level"] = {
+                    ["font"] = "Expressway",
+                },
+                ["name"] = {
+                    ["font"] = "Expressway",
+                },
+                ["power"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+            },
+            ["FRIENDLY_NPC"] = {
+                ["buffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["castbar"] = {
+                    ["font"] = "Expressway",
+                },
+                ["debuffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["health"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+                ["level"] = {
+                    ["font"] = "Expressway",
+                },
+                ["name"] = {
+                    ["font"] = "Expressway",
+                },
+                ["power"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+            },
+            ["FRIENDLY_PLAYER"] = {
+                ["buffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["castbar"] = {
+                    ["font"] = "Expressway",
+                },
+                ["debuffs"] = {
+                    ["countFont"] = "Expressway",
+                    ["font"] = "Expressway",
+                },
+                ["health"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+                ["level"] = {
+                    ["font"] = "Expressway",
+                },
+                ["name"] = {
+                    ["font"] = "Expressway",
+                },
+                ["power"] = {
+                    ["text"] = {
+                        ["font"] = "Expressway",
+                    },
+                },
+            },
+        },
+    },
+    ["tooltip"] = {
+        ["font"] = "Expressway",
+        ["headerFontSize"] = 11,
+        ["healthBar"] = {
+            ["font"] = "Expressway",
+            ["fontSize"] = 9,
+            ["height"] = 6,
+        },
+        ["smallTextFontSize"] = 11,
+        ["textFontSize"] = 11,
+    },
+    ["unitframe"] = {
+        ["colors"] = {
+            ["auraBarBuff"] = {
+                ["b"] = 0.1,
+                ["g"] = 0.1,
+                ["r"] = 0.1,
+            },
+            ["castClassColor"] = true,
+            ["castColor"] = {
+                ["b"] = 0.1,
+                ["g"] = 0.1,
+                ["r"] = 0.1,
+            },
+            ["castReactionColor"] = true,
+            ["colorhealthbyvalue"] = false,
+            ["frameGlow"] = {
+                ["focusGlow"] = {
+                    ["class"] = true,
+                    ["enable"] = true,
+                },
+                ["mainGlow"] = {
+                    ["class"] = true,
+                    ["enable"] = true,
+                },
+                ["mouseoverGlow"] = {
+                    ["class"] = true,
+                    ["texture"] = "BuiMelli",
+                },
+            },
+            ["health"] = {
+                ["b"] = 0.1,
+                ["g"] = 0.1,
+                ["r"] = 0.1,
+            },
+            ["health_backdrop_dead"] = {
+                ["b"] = 0.003921568627451,
+                ["g"] = 0.003921568627451,
+                ["r"] = 0.14901960784314,
+            },
+            ["healthclass"] = true,
+            ["power"] = {
+                ["ALT_POWER"] = {
+                    ["b"] = 1,
+                    ["g"] = 0.24705882352941,
+                    ["r"] = 0.20392156862745,
+                },
+                ["MANA"] = {
+                    ["b"] = 1,
+                    ["g"] = 0.07843137254902,
+                    ["r"] = 0,
+                },
+            },
+            ["powerPrediction"] = {
+                ["additional"] = {
+                    ["g"] = 0.086274509803922,
+                    ["r"] = 0.047058823529412,
+                },
+                ["color"] = {
+                    ["g"] = 0.17254901960784,
+                    ["r"] = 0.03921568627451,
+                },
+            },
+            ["power_backdrop"] = {
+                ["b"] = 0.97254901960784,
+                ["g"] = 0.22745098039216,
+                ["r"] = 0.16078431372549,
+            },
+            ["selection"] = {
+                [1] = {
+                    ["b"] = 0,
+                    ["g"] = 0.42352941176471,
+                },
+            },
+            ["transparentAurabars"] = true,
+        },
+        ["font"] = "Expressway",
+        ["fontOutline"] = "OUTLINE",
+        ["fontSize"] = 11,
+        ["smoothbars"] = true,
+        ["statusbar"] = "BuiFlat",
+        ["units"] = {
+            ["focus"] = {
+                ["castbar"] = {
+                    ["enable"] = false,
+                    ["height"] = 14,
+                    ["icon"] = false,
+                    ["iconSize"] = 26,
+                    ["width"] = 130,
+                },
+                ["debuffs"] = {
+                    ["anchorPoint"] = "BOTTOMRIGHT",
+                    ["enable"] = false,
+                },
+                ["height"] = 30,
+                ["infoPanel"] = {
+                    ["height"] = 12,
+                    ["transparent"] = true,
+                },
+                ["portrait"] = {
+                    ["camDistanceScale"] = 1,
+                },
+                ["power"] = {
+                    ["height"] = 5,
+                },
+                ["width"] = 130,
+            },
+            ["focustarget"] = {
+                ["enable"] = true,
+            },
+            ["party"] = {
+                ["buffs"] = {
+                    ["anchorPoint"] = "RIGHT",
+                    ["sizeOverride"] = 18,
+                    ["xOffset"] = 2,
+                    ["yOffset"] = -20,
+                },
+                ["colorOverride"] = "FORCE_ON",
+                ["customTexts"] = {
+                    ["BenikuiPartyHealth"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Expressway",
+                        ["fontOutline"] = "OUTLINE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 16,
+                        ["text_format"] = "[health:current-percent:shortvalue]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
+                    },
+                },
+                ["debuffs"] = {
+                    ["countFontSize"] = 14,
+                    ["sizeOverride"] = 25,
+                    ["xOffset"] = 2,
+                    ["yOffset"] = 17,
+                },
+                ["enable"] = false,
+                ["health"] = {
+                    ["position"] = "TOPRIGHT",
+                    ["text_format"] = "",
+                    ["xOffset"] = 0,
+                    ["yOffset"] = -2,
+                },
+                ["height"] = 40,
+                ["infoPanel"] = {
+                    ["enable"] = true,
+                    ["height"] = 20,
+                    ["transparent"] = true,
+                },
+                ["name"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                    ["position"] = "LEFT",
+                    ["text_format"] = "[name:medium] [difficultycolor][smartlevel]",
+                    ["xOffset"] = 4,
+                },
+                ["petsGroup"] = {
+                    ["height"] = 16,
+                    ["name"] = {
+                        ["position"] = "LEFT",
+                    },
+                    ["width"] = 60,
+                    ["xOffset"] = 0,
+                    ["yOffset"] = -1,
+                },
+                ["portrait"] = {
+                    ["camDistanceScale"] = 1,
+                    ["height"] = 15,
+                    ["transparent"] = true,
+                    ["width"] = 60,
+                },
+                ["power"] = {
+                    ["enable"] = false,
+                    ["height"] = 6,
+                    ["position"] = "BOTTOMRIGHT",
+                    ["text_format"] = "",
+                    ["xOffset"] = 0,
+                    ["yOffset"] = 2,
+                },
+                ["rdebuffs"] = {
+                    ["font"] = "Expressway",
+                },
+                ["targetsGroup"] = {
+                    ["height"] = 16,
+                    ["width"] = 70,
+                    ["yOffset"] = -14,
+                },
+                ["verticalSpacing"] = 4,
+                ["width"] = 120,
+            },
+            ["pet"] = {
+                ["buffs"] = {
+                    ["enable"] = true,
+                },
+                ["castbar"] = {
+                    ["enable"] = false,
+                    ["height"] = 10,
+                    ["width"] = 130,
+                },
+                ["height"] = 24,
+                ["infoPanel"] = {
+                    ["transparent"] = true,
+                },
+                ["portrait"] = {
+                    ["overlay"] = true,
+                },
+                ["power"] = {
+                    ["enable"] = false,
+                    ["height"] = 5,
+                },
+            },
+            ["player"] = {
+                ["aurabar"] = {
+                    ["spacing"] = 3,
+                },
+                ["buffs"] = {
+                    ["attachTo"] = "FRAME",
+                    ["enable"] = true,
+                    ["sizeOverride"] = 30,
+                    ["yOffset"] = 2,
+                },
+                ["castbar"] = {
+                    ["height"] = 28,
+                    ["icon"] = false,
+                    ["overlayOnFrame"] = "InfoPanel",
+                    ["width"] = 258,
+                },
+                ["classbar"] = {
+                    ["detachFromFrame"] = true,
+                    ["detachedWidth"] = 140,
+                    ["fill"] = "spaced",
+                },
+                ["customTexts"] = {
+                    ["BenikuiPlayerHealth"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Expressway",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 22,
+                        ["text_format"] = "[health:current-percent:shortvalue]",
+                        ["xOffset"] = -8,
+                        ["yOffset"] = -1,
+                    },
+                    ["BenikuiPlayerName"] = {
+                        ["attachTextTo"] = "InfoPanel",
+                        ["enable"] = true,
+                        ["font"] = "Expressway",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 11,
+                        ["text_format"] = "[name]",
+                        ["xOffset"] = -8,
+                        ["yOffset"] = 0,
+                    },
+                },
+                ["debuffs"] = {
+                    ["attachTo"] = "BUFFS",
+                    ["sizeOverride"] = 32,
+                    ["yOffset"] = 2,
+                },
+                ["health"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                    ["text_format"] = "",
+                    ["xOffset"] = 4,
+                    ["yOffset"] = -25,
+                },
+                ["height"] = 40,
+                ["infoPanel"] = {
+                    ["enable"] = true,
+                    ["height"] = 22,
+                    ["transparent"] = true,
+                },
+                ["portrait"] = {
+                    ["camDistanceScale"] = 1,
+                },
+                ["power"] = {
+                    ["EnergyManaRegen"] = true,
+                    ["attachTextTo"] = "Frame",
+                    ["detachedWidth"] = 369,
+                    ["hideonnpc"] = true,
+                    ["position"] = "LEFT",
+                    ["powerPrediction"] = true,
+                    ["strataAndLevel"] = {
+                        ["frameLevel"] = 2,
+                    },
+                    ["text_format"] = "[power:current-percent]",
+                    ["width"] = "offset",
+                    ["xOffset"] = 45,
+                    ["yOffset"] = 9,
+                },
+                ["smartAuraPosition"] = "DEBUFFS_ON_BUFFS",
+                ["width"] = 258,
+            },
+            ["raid1"] = {
+                ["colorOverride"] = "FORCE_ON",
+                ["cutaway"] = {
+                    ["power"] = {
+                        ["enabled"] = true,
+                    },
+                },
+                ["debuffs"] = {
+                    ["anchorPoint"] = "TOPRIGHT",
+                    ["sizeOverride"] = 16,
+                    ["yOffset"] = -17,
+                },
+                ["growthDirection"] = "UP_RIGHT",
+                ["healPrediction"] = {
+                    ["enable"] = true,
+                },
+                ["health"] = {
+                    ["position"] = "CENTER",
+                    ["xOffset"] = 0,
+                    ["yOffset"] = 0,
+                },
+                ["height"] = 40,
+                ["horizontalSpacing"] = 5,
+                ["infoPanel"] = {
+                    ["enable"] = true,
+                    ["height"] = 18,
+                    ["transparent"] = true,
+                },
+                ["name"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                    ["position"] = "LEFT",
+                    ["xOffset"] = 4,
+                },
+                ["portrait"] = {
+                    ["overlay"] = true,
+                },
+                ["power"] = {
+                    ["height"] = 5,
+                    ["powerPrediction"] = true,
+                },
+                ["rdebuffs"] = {
+                    ["font"] = "Expressway",
+                    ["size"] = 20,
+                    ["yOffset"] = 12,
+                },
+                ["verticalSpacing"] = 5,
+                ["visibility"] = "[@raid6,noexists][@raid26,exists hide;show",
+                ["width"] = 78,
+            },
+            ["raid2"] = {
+                ["enable"] = false,
+                ["visibility"] = "[@raid6,noexists][@raid26,exists hide;show",
+            },
+            ["raid3"] = {
+                ["colorOverride"] = "FORCE_ON",
+                ["enable"] = false,
+                ["growthDirection"] = "RIGHT_UP",
+                ["healPrediction"] = {
+                    ["enable"] = true,
+                },
+                ["health"] = {
+                    ["xOffset"] = 0,
+                    ["yOffset"] = 1,
+                },
+                ["height"] = 35,
+                ["horizontalSpacing"] = 5,
+                ["infoPanel"] = {
+                    ["enable"] = true,
+                    ["height"] = 18,
+                    ["transparent"] = true,
+                },
+                ["name"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                },
+                ["power"] = {
+                    ["enable"] = true,
+                    ["powerPrediction"] = true,
+                    ["reverseFill"] = true,
+                },
+                ["rdebuffs"] = {
+                    ["enable"] = true,
+                    ["font"] = "Expressway",
+                    ["size"] = 20,
+                    ["yOffset"] = 4,
+                },
+                ["verticalSpacing"] = 5,
+                ["visibility"] = "[@raid6,noexists][@raid26,exists hide;show",
+                ["width"] = 78,
+            },
+            ["target"] = {
+                ["aurabar"] = {
+                    ["enable"] = false,
+                },
+                ["buffs"] = {
+                    ["sizeOverride"] = 30,
+                    ["yOffset"] = 2,
+                },
+                ["castbar"] = {
+                    ["icon"] = false,
+                    ["iconPosition"] = "RIGHT",
+                    ["iconXOffset"] = 10,
+                    ["overlayOnFrame"] = "InfoPanel",
+                    ["width"] = 258,
+                },
+                ["customTexts"] = {
+                    ["BenikuiTargetHealth"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Expressway",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "LEFT",
+                        ["size"] = 22,
+                        ["text_format"] = "[health:current-percent:shortvalue]",
+                        ["xOffset"] = 8,
+                        ["yOffset"] = -1,
+                    },
+                    ["BenikuiTargetName"] = {
+                        ["attachTextTo"] = "InfoPanel",
+                        ["enable"] = true,
+                        ["font"] = "Expressway",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "LEFT",
+                        ["size"] = 11,
+                        ["text_format"] = "[name:medium] [difficultycolor][smartlevel] [shortclassification]",
+                        ["xOffset"] = 8,
+                        ["yOffset"] = 0,
+                    },
+                },
+                ["debuffs"] = {
+                    ["sizeOverride"] = 32,
+                    ["yOffset"] = 2,
+                },
+                ["health"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                    ["text_format"] = "",
+                    ["xOffset"] = 4,
+                    ["yOffset"] = -25,
+                },
+                ["height"] = 40,
+                ["infoPanel"] = {
+                    ["enable"] = true,
+                    ["height"] = 22,
+                    ["transparent"] = true,
+                },
+                ["name"] = {
+                    ["position"] = "RIGHT",
+                    ["text_format"] = "",
+                    ["xOffset"] = 8,
+                    ["yOffset"] = -25,
+                },
+                ["orientation"] = "LEFT",
+                ["portrait"] = {
+                    ["camDistanceScale"] = 1,
+                },
+                ["power"] = {
+                    ["attachTextTo"] = "InfoPanel",
+                    ["detachedWidth"] = 300,
+                    ["text_format"] = "[powercolor][power:current-percent]",
+                    ["xOffset"] = 4,
+                },
+                ["smartAuraPosition"] = "DEBUFFS_ON_BUFFS",
+                ["width"] = 258,
+            },
+            ["targettarget"] = {
+                ["debuffs"] = {
+                    ["yOffset"] = 16,
+                },
+                ["height"] = 35,
+                ["infoPanel"] = {
+                    ["height"] = 12,
+                    ["transparent"] = true,
+                },
+                ["name"] = {
+                    ["text_format"] = "[name:medium]",
+                },
+                ["portrait"] = {
+                    ["camDistanceScale"] = 1,
+                    ["overlay"] = true,
+                },
+                ["threatStyle"] = "GLOW",
+            },
+            ["targettargettarget"] = {
+                ["enable"] = true,
+            },
+        },
+    },
+}::profile::LuckyPala
